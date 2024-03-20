@@ -1,0 +1,107 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.head {
+    padding: 10px; 
+    background-color: rgb(175, 225, 225);
+    position: sticky;
+}
+.logo {
+    height: 40px; 
+}
+.Theader {
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+    margin-left: 215px;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+    margin-bottom: 10px;
+}
+.nav a:hover {
+    color: brown;
+    transition: 0.4s; /* Correction: Utilisation du point pour le temps de transition */
+}
+.recherche {
+    margin-left: 0px;
+    float: right;
+}
+input[type="text"],
+textarea {
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border: 1px solid #d57e7e;
+    left: 100px;
+}
+.boutton {
+    background-color: rgb(8, 92, 92);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: #f2f2f2;
+    transition: background-color 0.3s ease;
+}
+.boite_gauche {
+    float: left;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 50px; /* Correction: Valeur positive pour le padding */
+    margin: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.boite_droite {
+    float: right;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 50px; /* Correction: Valeur positive pour le padding */
+    margin: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.center {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-color: #d1fdd3;
+}
+.hop {
+    background-color: rgb(197, 242, 242);
+}
+.box {
+    float: left;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 50px;
+    margin: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+footer {
+    padding: 20px;
+    background-color: rgb(175, 225, 225);
+}
+h2 {
+    margin-top: 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+
+
+
